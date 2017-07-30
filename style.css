@@ -1,0 +1,131 @@
+body {
+  color: #7B7A7F;
+  display: flex;
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+}
+
+.side-container {
+  background-color: #304050;
+}
+
+.top-side-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0 10px;
+  border-bottom: 2px solid #2D384A;
+}
+
+.nav-main,
+.nav-admin {
+  border-bottom: 2px solid #2D384A;
+}
+
+.profile-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.profile-name {
+  color: #939EB0;
+}
+
+ul {
+  padding: 0 0 20px;
+}
+
+.aside-header {
+  margin: 15px 0 0 10px;
+  color: #596679;
+  font-size: 12px;
+}
+
+.side-link:hover {
+  color: #FFFFFF;
+}
+
+.side-nav-icon {
+  height: 25px;
+  padding: 0 35px;
+  margin: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  cursor: pointer;
+}
+
+#aside-home,
+#aside-jobs,
+#aside-resume,
+#aside-tasks,
+#aside-calendar {
+  background-image: url('images-icons/home.svg');
+}
+
+#aside-home:hover,
+#aside-jobs:hover,
+#aside-resume:hover,
+#aside-tasks:hover,
+#aside-calendar:hover {
+  background-image: url('images-icons/icon.svg');
+}
+
+#aside-users,
+#aside-locations,
+#aside-workflows,
+#aside-job-boards,
+#aside-social {
+  background-image: url('images-icons/workflow.svg');
+}
+
+#aside-users:hover,
+#aside-locations:hover,
+#aside-workflows:hover,
+#aside-job-boards:hover,
+#aside-social:hover {
+  background-image: url('images-icons/newspaper (1).svg');
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  color: #939EB0;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.aside-category {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.checkbox {
+	-webkit-appearance: none;
+  display: block;
+  position: relative;
+  margin: 10px;
+	padding: 8px;
+	border-radius: 1px;
+  cursor: pointer;
+  outline: none;
+}
+
+#green-box {
+  background-color: green;
+}
+
+#yellow-box {
+  background-color: yellow;
+}
+
+#red-box {
+  background-color: red;
+}
+
+#orange-box {
+  background-color: orange;
+}
