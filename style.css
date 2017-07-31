@@ -37,10 +37,10 @@ ul {
   padding: 0 0 20px;
 }
 
-.aside-header {
+.side-header {
   margin: 15px 0 0 10px;
   color: #596679;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .side-link:hover {
@@ -53,7 +53,6 @@ ul {
   margin: 0 10px;
   background-repeat: no-repeat;
   background-size: 25px;
-  cursor: pointer;
 }
 
 #aside-home,
@@ -104,14 +103,12 @@ ul {
 }
 
 .checkbox {
-	-webkit-appearance: none;
   display: block;
   position: relative;
   margin: 10px;
 	padding: 8px;
-	border-radius: 1px;
-  cursor: pointer;
-  outline: none;
+	border-radius: 100%;
+  -webkit-appearance: none;
 }
 
 #green-box {
@@ -128,4 +125,123 @@ ul {
 
 #orange-box {
   background-color: orange;
+}
+
+.checkbox:checked:after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+	content: '\2714';
+}
+
+.checkbox-label {
+  color: #939EB0;
+  font-size: 18px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.top-nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #C2C2C2;
+}
+
+.left-icon-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #C2C2C2;
+}
+
+.icon-btn {
+  height: 100%;
+  width: 75px;
+  border: none;
+  background-color: inherit;;
+  background-repeat: no-repeat;
+}
+
+#menu-btn {
+  background-image: url('images-icons/magnifying-glass.svg');
+  background-position: 20%;
+  background-size: contain;
+  margin: 20px;
+  width: 35px;
+}
+
+#menu-btn:hover {
+  background-color: #16A0F5;
+  cursor: pointer;
+}
+
+.search-container {
+  flex-grow: 1;
+  background-image: url('assets/magnifying-glass.svg');
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 30px;
+}
+
+.search-bar {
+  width: 90%;
+  margin-left: 50px;
+  padding: 30px 0;
+  border: 0 solid;
+  color: #6C6D72;
+  font-size: 16px;
+  outline: none;
+}
+
+::placeholder {
+  padding: 25px;
+  color: #C2C2C2;
+  font-size: 16px;
+}
+
+#short-search {
+  display: none;
+}
+
+.right-icon-container {
+  height: 100%;
+  display: flex;
+}
+
+#user {
+  background-image: url('images-icons/briefcase.svg');
+}
+
+#calendar {
+  background-image: url('');
+}
+
+#dots {
+  background-image: url('images-icons/dot-matrix.svg');
+}
+
+#expand{
+  display: none;
+  background-image: url('assets/dot-matrix.svg');
+}
+
+#user,
+#calendar,
+#dots,
+#expand {
+  border-left: 1px solid #C2C2C2;
+  background-position: 20px;
+  background-size: 50%;
+}
+
+#user:hover,
+#calendar:hover,
+#dots:hover {
+  background-color: lightgreen;
 }
