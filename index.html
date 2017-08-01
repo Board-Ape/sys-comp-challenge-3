@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://use.fontawesome.com/437d2371d5.js"></script>
   <title>Static Comp Challenge 3</title>
 </head>
 
@@ -20,7 +21,7 @@
         <h3 class="side-header">Majority Ownership</h3>
         <li><a class="side-link side-nav-icon" id="aside-home">Geico</a></li>
         <li><a class="side-link side-nav-icon" id="aside-jobs" href="#">Duracell</a></li>
-        <li><a class="side-link side-nav-icon" id="aside-resume" href="#">Dairy Queen</a></li>
+        <li><a class="side-link side-nav-icon" id="aside-resume" href="#">Dairy Q</a></li>
         <li><a class="side-link side-nav-icon" id="aside-tasks" href="#">McClane</a></li>
         <li><a class="side-link side-nav-icon" id="aside-calendar" href="#">Helzberg</a></li>
       </ul>
@@ -60,7 +61,7 @@
           <button class="icon-btn" id="menu-btn"></button>
         </div>
         <div class="search-container">
-          <input role="search" class="search-bar" id="long-search" type="text" name="search" placeholder="Search for a job, task or resume" />
+          <input role="search" class="search-bar" id="long-search" type="text" name="search" placeholder="Search by category, date or company" />
           <input role="search" class="search-bar" id="short-search" type="text" name="search" placeholder="Search" />
         </div>
         <div class="right-icon-container">
@@ -71,35 +72,128 @@
         </nav>
       <section class="middle-header">
         <div class="title-container">
-          <h1 class="title">Billionaire Entrepen</h1>
+          <h1 class="title">Billionaire Entrepeneur</h1>
           <p class="location">Omaha, NE - <a class="preview" href="#">Preview Location</a></p>
         </div>
         <div class="btn-container">
-          <button class="open" type="button" name="open">Enter</button>
+          <button class="note" type="button" name="note">Notes</button>
           <button class="ribbon" type="button" name="ribbon"></button>
           <button class="edit" type="button" name="edit"></button>
           <button class="delete" type="button" name="delete"></button>
         </div>
       </section>
       <nav class="lower-nav">
-        <a class="nav-link" id="summary" href="#">Summary</a>
-        <a class="nav-link" id="applicants-link" href="#">Applicants</a>
-        <a class="nav-link" id="job-board" href="#">Job Board</a>
-        <a class="nav-link" id="nav-interviews" href="#">Interviews</a>
-        <a class="nav-link" id="activity" href="#">Activity</a>
-        <a class="nav-link" id="broadcast" href="#">Broadcast</a>
-        <a class="nav-link" id="notifications" href="#">Notifications</a>
+        <a class="nav-link" id="summary" href="#">Biography</a>
+        <a class="nav-link" id="applicants-link" href="#">History</a>
+        <a class="nav-link" id="job-board" href="#">Prospects</a>
+        <a class="nav-link" id="nav-interviews" href="#">Companies</a>
+        <a class="nav-link" id="activity" href="#">Market</a>
+        <a class="nav-link" id="broadcast" href="#">Finance</a>
+        <a class="nav-link" id="notifications" href="#">Opportunities</a>
         <a class="nav-link" id="more" href="#">More...</a>
       </nav>
     </header>
-
-
-    <header role="">
-    </header>
-
-    <main role="">
+    <main role="main">
+      <section class="graph-container">
+        <div class="circle-chart-container">
+          <div class="circle-chart" id="applicants">
+            <p class="circle-number">5.5 mil</p>
+            <p class="circle-text">Total Employed</p>
+          </div>
+          <div class="circle-chart" id="interviews">
+            <p class="circle-number">460,000</p>
+            <p class="circle-text">Directly Employed</p>
+          </div>
+          <div class="circle-chart" id="forwards">
+            <p class="circle-number">79,000</p>
+            <p class="circle-text">Future Employment</p>
+          </div>
+          <button class="circle-btn"><span class="to-uppercase">totals</span> - more than 6 million </button>
+        </div>
+        <div class="bar-chart-container">
+          <img id="bar-chart" src="images-icons/Bar-Chart-Growth.png" alt="this is a bar chart">
+          <button class="chart-btn">Jobs Created/day</button>
+        </div>
+      </section>
+      <div class="line-break">
+        <hr>
+        <button class="collapse-btn" type="button" name="collapse container button"></button>
+        <hr>
+      </div>
+      <section class="bottom-container">
+        <section class="table-container">
+          <table>
+            <thead>
+              <tr class="top-row">
+                <td colspan="2" class="row-title">track history <button class="table-btn">Edit</button></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="row-title">Occupation </td>
+                <td>Philanthropist Billionaire</td>
+              </tr>
+              <tr>
+                <td class="row-title">Title Held </td>
+                <td>Business Magnate</td>
+              </tr>
+              <tr>
+                <td class="row-title">experience</td>
+                <td>Incalcuable</td>
+              </tr>
+              <tr>
+                <td class="row-title">status</td>
+                <td>Wealthy</td>
+              </tr>
+              <tr>
+                <td class="row-title">background</td>
+                <td class="background">Born in Omaha, Buffett developed an interest in business and investing in his youth, eventually entering the Wharton School of the University of Pennsylvania in 1947 before transferring and graduating from University of Nebraska–Lincoln at the age of 19. He has publicly opposed the policies, actions, and statements of the current U.S. president, Donald Trump.</td>
+              </tr>
+              <tr>
+                <td class="row-title">Wife</td>
+                <td id="astrid-menks"><img class="table-photo" src="images-icons/Astrid-Menks.jpg" alt="profile pic">Astrid Menks</td>
+              </tr>
+              <tr class="bottom-row">
+                <td class="row-title">3 Children </td>
+                <td class="salary">Inheritance: $2 Billion Each</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="aside-right">
+          <div class="social-media-container">
+            <a class="social-media-links" id="facebook" href="#">Find Me On Facebook</a>
+            <a class="social-media-links" id="twitter" href="#">Tweet Me On Twitter</a>
+            <a class="social-media-links" id="linkedin" href="#">Connect On Linkedin</a>
+          </div>
+          <div class="connect-container">
+            <article class="job-link">
+              <h2 id="link-to-job"><img class="connect-icon" src="images-icons/earth.svg" alt="world icon">Snapshot history </h2>
+              <p class="connect-text">Take a dive into my world of adventures. The ups and down to becoming one of the wealthiest investors in the entire world and raising a familin the process.</p>
+              <div class="input-container">
+                <input class="link-container" type="text" name="job link" value="http://www.snapshot-of-my-life" />
+                <button class="copy">Enter</button>
+              </div>
+            </article>
+            <article class="button-widget">
+              <h2><img class="connect-icon" src="images-icons/earth.svg" alt="widget">My Employment History</h2>
+              <p class="connect-text">Take a peak into the world of investing and the steps I took to eventaully get to where I am today</p>
+              <div class="input-container">
+                <input class="link-container" type="text" name="button widget" value="https://www.dive-into-business" />
+                <button class="copy">Enter</button>
+              </div>
+            </article>
+            <article class="upload-resume">
+              <h2><img class="connect-icon" src="images-icons/earth.svg" alt="sent mail icon">My Childen's Success Stories</h2>
+              <p class="connect-text">Learn more about the upbringing and life of my 3 loving children and their story.</p>
+              <input class="link-container" id="email" type="email" name="email" value="https//:my-childrens-successe-stories.com" />
+            </article>
+          </div>
+        </section>
+      </section>
     </main>
+  </section>
 
-  </body>
+</body>
 
 </html>
