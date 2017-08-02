@@ -145,11 +145,20 @@ ul {
   background-color: orange;
 }
 
+#green-box:hover,
+#yellow-box:hover,
+#red-box:hover,
+#orange-box:hover {
+  height: 30px;
+  width: 30px;
+}
+
 .checkbox:checked:after {
   position: absolute;
   top: 2px;
   left: 2px;
-	content: '\2714';
+  background-color: black;
+	/*content: '\2714';*/
 }
 
 .checkbox-label {
@@ -301,6 +310,10 @@ header p {
   text-decoration: none;
 }
 
+.preview:hover {
+  font-size: 18px;
+}
+
 .btn-container {
   display: flex;
   align-items: center;
@@ -419,14 +432,26 @@ main {
 }
 
 #applicants {
+  border-color: #3E517A
+}
+
+#applicants:hover {
   border-color: #63A46C #B4D2BA #63A46C #63A46C;
 }
 
 #interviews {
+  border-color: #3E517A
+}
+
+#interviews:hover {
   border-color: #90D7FF #B4D2BA #B4D2BA #90D7FF;
 }
 
 #forwards {
+  border-color: #3E517A
+}
+
+#forwards:hover {
   border-color: #73C2BE #B4D2BA #B4D2BA #B4D2BA;
 }
 
@@ -526,7 +551,7 @@ table {
 }
 
 thead {
-  background-color: #6F7E95;
+  background-color: #3E517A;
   color: #FFFFFF;
 }
 
