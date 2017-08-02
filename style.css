@@ -7,7 +7,7 @@ body {
 }
 
 .side-container {
-  background-color: #302550;
+  background-color: #3E517A;
 }
 
 .top-side-nav {
@@ -419,15 +419,15 @@ main {
 }
 
 #applicants {
-  border-color: lightgreen ivory lightgreen lightgreen;
+  border-color: #63A46C #B4D2BA #63A46C #63A46C;
 }
 
 #interviews {
-  border-color: lightgreen ivory ivory lightgreen;
+  border-color: #90D7FF #B4D2BA #B4D2BA #90D7FF;
 }
 
 #forwards {
-  border-color: lightgreen ivory ivory ivory;
+  border-color: #73C2BE #B4D2BA #B4D2BA #B4D2BA;
 }
 
 .circle-number {
