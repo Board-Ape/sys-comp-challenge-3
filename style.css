@@ -71,35 +71,35 @@ ul {
   background-size: 25px;
 }
 
-#aside-home,
-#aside-jobs,
-#aside-resume,
-#aside-tasks,
-#aside-calendar {
+#aside-geico,
+#aside-netjets,
+#aside-mcclane,
+#aside-duracell,
+#aside-helzberg {
   background-image: url('images-icons/home.svg');
 }
 
-#aside-home:hover,
-#aside-jobs:hover,
-#aside-resume:hover,
-#aside-tasks:hover,
-#aside-calendar:hover {
+#aside-geico:hover,
+#aside-netjets:hover,
+#aside-mcclane:hover,
+#aside-duracell:hover,
+#aside-helzberg:hover {
   background-image: url('images-icons/icon.svg');
 }
 
-#aside-users,
-#aside-locations,
-#aside-workflows,
-#aside-job-boards,
-#aside-social {
+#aside-ibm,
+#aside-ups,
+#aside-apple,
+#aside-costco,
+#aside-verizon {
   background-image: url('images-icons/workflow.svg');
 }
 
-#aside-users:hover,
-#aside-locations:hover,
-#aside-workflows:hover,
-#aside-job-boards:hover,
-#aside-social:hover {
+#aside-ibm:hover,
+#aside-ups:hover,
+#aside-apple:hover,
+#aside-costco:hover,
+#aside-verizon:hover {
   background-image: url('images-icons/newspaper (1).svg');
 }
 
@@ -750,8 +750,6 @@ h2:hover {
 .upload-resume {
   border: none;
 }
-
-/*MEDIA QUERIES*/
 
 @media screen and (min-width: 1400px) {
   .circle-chart-container {
