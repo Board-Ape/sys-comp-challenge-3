@@ -13,7 +13,7 @@
 
   <section class="side-container">
     <nav class="side-nav">
-      <div class="top-side-nav">
+      <div data-message="top side of navigation bar" class="top-side-nav">
         <img class="profile-pic" src="images-icons/Warren-Buffet.jpg" alt="profile pic">
         <p class="profile-name">Warren Buffett</p>
       </div>
@@ -35,19 +35,19 @@
       </ul>
     <div class="nav-categories">
       <h3 class="side-header">Categories</h3>
-      <div class="aside-category">
+      <div data-message="check box option entrepeneur" class="aside-category">
         <input type="checkbox" class="checkbox" id="green-box" name="green checkbox" />
         <label class="checkbox-label" for="green-box">Entrepeneur</label>
       </div>
-      <div class="aside-category">
+      <div data-message="check box option investment mogul" class="aside-category">
         <input type="checkbox" class="checkbox" id="yellow-box" name="yellow" checkbox" />
         <label class="checkbox-label" for="yellow-box">Investment Mogul</label>
       </div>
-      <div class="aside-category">
+      <div data-message="check box option hedge fund CEO" class="aside-category">
         <input type="checkbox" class="checkbox" id="red-box" name="red checkbox" />
         <label class="checkbox-label" for="red-box">Hedge Fund CEO</label>
       </div>
-      <div class="aside-category">
+      <div data-message="check box option richest man alive" class="aside-category">
         <input type="checkbox" class="checkbox" id="orange-box" name="orange checkbox" />
         <label class="checkbox-label" for="orange-box">Richest Man Alive</label>
       </div>
@@ -57,25 +57,25 @@
 <section class="main-wrapper">
     <header role="banner" class="header-container">
       <nav class="top-nav">
-        <div class="left-icon-container">
+        <div data-message="left icon container button" class="left-icon-container">
           <button class="icon-btn" id="menu-btn"></button>
         </div>
-        <div class="search-container">
+        <div data-message="search container text field input" class="search-container">
           <input role="search" class="search-bar" id="long-search" type="text" name="search" placeholder="Search by category, date or company" />
           <input role="search" class="search-bar" id="short-search" type="text" name="search" placeholder="Search" />
         </div>
-        <div class="right-icon-container">
+        <div data-message="right icon container button selection" class="right-icon-container">
           <button class="icon-btn" id="user"></button>
           <button class="icon-btn" id="calendar"></button>
           <button class="icon-btn" id="dots"></button>
           <button class="icon-btn" id="expand"></button>
         </nav>
       <section class="middle-header">
-        <div class="title-container">
+        <div data-message="title billionaire entrepeneur container" class="title-container">
           <h1 class="title">Billionaire Entrepeneur</h1>
           <p class="location">Omaha, NE - <a class="preview" href="#">Preview Location</a></p>
         </div>
-        <div class="btn-container">
+        <div data-message="buttons to seelct from" class="btn-container">
           <button class="note" type="button" name="note">Notes</button>
           <button class="ribbon" type="button" name="ribbon"></button>
           <button class="edit" type="button" name="edit"></button>
@@ -95,22 +95,22 @@
     </header>
     <main role="main">
       <section class="graph-container">
-        <div class="circle-chart-container">
-          <div class="circle-chart" id="applicants">
+        <div data-message="circle chart container" class="circle-chart-container">
+          <div data-message="total people employed chart" class="circle-chart" id="applicants">
             <p class="circle-number">5.5 mil</p>
             <p class="circle-text">Total Employed</p>
           </div>
-          <div class="circle-chart" id="interviews">
+          <div data-message="total people directly employed chart" class="circle-chart" id="interviews">
             <p class="circle-number">460,000</p>
             <p class="circle-text">Directly Employed</p>
           </div>
-          <div class="circle-chart" id="forwards">
+          <div data-message="future people employed chart" class="circle-chart" id="forwards">
             <p class="circle-number">79,000</p>
             <p class="circle-text">Future Employment</p>
           </div>
           <button class="circle-btn"><span class="to-uppercase">totals</span> - more than 6 million </button>
         </div>
-        <div class="bar-chart-container">
+        <div data-message="bar chart container" class="bar-chart-container">
           <img id="bar-chart" src="images-icons/Bar-Chart-Growth.png" alt="this is a bar chart">
           <button class="chart-btn">Jobs Created/day</button>
         </div>
