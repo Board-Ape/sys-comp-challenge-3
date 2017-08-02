@@ -1020,11 +1020,18 @@ h2:hover {
   }
   #forwards {
     height: 175px;
-    width: 175px;
+    width: 300px;
   }
   .circle-chart {
     height: 175px;
-    width: 175px;
+    width: 300px;
+  }
+  .circle-number {
+    padding-top: 0px;
+    font-size: 40px;
+  }
+  .circle-text {
+    font-size: 20px;
   }
   .aside-right,
   .table-container{
